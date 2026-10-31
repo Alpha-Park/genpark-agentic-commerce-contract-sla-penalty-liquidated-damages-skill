@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agentic-commerce-contract-sla-penalty-liquidated-damages-skill",
+  "version": "1.0.0",
+  "description": "Enterprise Master Services Agreement (MSA) uptime/delivery SLA liquidated damages penalty adjudicator.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "adjudicate_sla_liquidated_damages",
+      "description": "Enterprise Master Services Agreement (MSA) uptime/delivery SLA liquidated damages penalty adjudicator.",
+      "sample_input": {
+        "total_monthly_minutes": 43200,
+        "unplanned_outage_minutes": 180,
+        "monthly_service_fee_usd": 65000.0,
+        "contractual_target_sla_pct": 99.9,
+        "max_penalty_cap_pct": 30.0
+      }
+    }
+  ]
+}
