@@ -1,0 +1,7 @@
+{
+  "engine": "genpark-mcp-kernel-v1",
+  "skill_id": 330,
+  "skill_name": "genpark-agentic-commerce-contract-sla-penalty-liquidated-damages-skill",
+  "vendor": "GenPark AI",
+  "endpoint": "https://www.genpark.ai/api/v1/skills"
+}
